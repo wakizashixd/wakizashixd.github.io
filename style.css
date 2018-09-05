@@ -1,0 +1,100 @@
+body {
+    background-image: url("bird.jpg");
+}
+
+h1 {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color:whitesmoke;
+    text-decoration: line-through;
+}
+
+h2 {
+    font-family: 'Prompt', sans-serif;
+    color:black;
+}
+
+h3 {
+    padding-left: 10px;
+    padding-top: 5px;
+    text-align: left;
+    font-family: 'Prompt', sans-serif;
+    color:black;
+    font-size: 16;
+    line-height: 1.2;
+}
+
+h4 {
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: right;
+    font-family: 'Prompt', sans-serif;
+    color:black;
+    font-size: 16;
+    line-height: 1.2;
+}
+
+h5 {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color:whitesmoke;
+}
+
+p {
+    padding-top:10px; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.container {
+    width: 960px;
+    margin:0 auto;
+    background-image: url("grey.jpg");
+    overflow: hidden;
+}
+
+header {
+    margin-left:41px;
+    margin-top:10px;
+    text-align: center;
+    width: 880px;
+    height: 120px;
+    background-image: url("dark.JPG");
+}
+
+section {
+    margin-left: 41px;
+    margin-top:20px;
+    text-align:center;
+    width: 535px;
+    height: 730px;
+    background-image: url("white.png");
+    float: left;
+}
+
+aside {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 305px;
+    height: 730px;
+    text-align:center;
+    background-image: url("white.png");
+    float:left;
+}
+
+footer {
+    background-image: url("dark.JPG");
+    width:880px;
+    height: 50px;
+    margin: 10px auto;
+}
+
